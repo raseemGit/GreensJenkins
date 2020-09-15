@@ -24,14 +24,14 @@ public class StepDef {
 	@When("D")
 	public void d() {
 		driver.findElement(By.id("email")).sendKeys("Farith");
-		driver.findElement(By.id("pass")).sendKeys("Farith2");
+		driver.findElement(By.id("pass")).sendKeys("Raseem");
 
 	}
 
 	@Then("E")
 	public void e() {
 		System.out.println("Login Failed");
-		driver.quit();
+		
 		
 	}
 
